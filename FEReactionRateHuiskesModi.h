@@ -14,6 +14,14 @@
 // FEElasticMaterial, which is defined in this include file.
 
 #pragma once
+#include "FEBioMix/stdafx.h"
+#include "FEBioMix/FEBiphasic.h"
+#include "FEBioMix/FEMultiphasic.h"
+#include <FEBioMech/FERemodelingElasticMaterial.h>
+#include <FEBioMech/FEElasticMixture.h>
+#include <FECore/FEModel.h>
+#include <FECore/log.h>
+#include <FECore/FEMesh.h>
 #include "FEBioMix/FEChemicalReaction.h"
 #include <FECore/FEMeshTopo.h>
 #include <FECore/FEParameterList.h>

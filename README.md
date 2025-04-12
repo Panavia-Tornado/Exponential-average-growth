@@ -9,3 +9,5 @@ $$\frac{d\rho}{dt}=(\sum{\frac{d\rho_{i}}{dt}exp(-\frac{d}{D})}V_{i})/\sum{V_{i}
 For build, the plugin should be using CMake to specify Febio SDK folder that is placed in a similar folder with Febio Studio.
 For using the plugin as a default, you should add DLL name to febio.xml in bin folder.
 This reaction rate is replaces the original in bone growth material with the same material properties.
+Example plate used plane strain formulation with X varied load. (example images%plate_fixed.png)
+Result density distribution without parameter D and included over a long period of time(left and right part of image accordingly). (example images%result.jpg)

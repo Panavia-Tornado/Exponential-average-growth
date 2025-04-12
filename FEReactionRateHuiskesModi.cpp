@@ -12,14 +12,6 @@
 // - a string that defines the name of the parameter as it will appear in the input file.
 //
 // The END_PARAMETER_LIST macro just defines the end of the parameter list.
-#include "FEBioMix/stdafx.h"
-#include "FEBioMix/FEBiphasic.h"
-#include "FEBioMix/FEMultiphasic.h"
-#include <FEBioMech/FERemodelingElasticMaterial.h>
-#include <FEBioMech/FEElasticMixture.h>
-#include <FECore/FEModel.h>
-#include <FECore/log.h>
-#include <FECore/FEMesh.h>
 
 
 // Material parameters for the FEMultiphasic material
